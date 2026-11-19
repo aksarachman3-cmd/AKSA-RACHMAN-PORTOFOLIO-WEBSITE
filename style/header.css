@@ -1,6 +1,5 @@
 header {
     width: 100%;
-    background-color: rgba(253, 249, 243, 0.85);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +13,8 @@ header {
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    width: 470px;
-    background-color: #F7F3ED;
+    width: 600px;
+    background-color: #f7eee1;
     border-radius: 10px;
     border: 1px solid #DDD6CC;
     height: 100%;
@@ -31,6 +30,7 @@ nav {
 
 .menu-container p {
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
 }
 
 .menu-container:hover {
@@ -42,5 +42,5 @@ nav {
 
 .menu-container:hover p {
     font-weight: 500;
-    font-size: 13px;
+    font-size: 16px;
 }
